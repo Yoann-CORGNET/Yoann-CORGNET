@@ -6,13 +6,13 @@
 <!-- Profile README – Yoann CORGNET -->
 <h1 align="center">&gt; Yoann CORGNET</h1>
 <p align="center">
-  Tech Lead @ <strong><a href="https://nerionsoft.com" target="_blank" rel="noopener noreferrer">NerionSoft</a></strong><br/>
+  Tech Lead @ <strong><a href="https://nerionsoft.com">NerionSoft</a></strong><br/>
   <em>Software Engineering student · ESIEA</em>
 </p>
 
 <p align="center">
-  <a href="https://yoann-corgnet.dev" target="_blank" rel="noopener noreferrer">yoann-corgnet.dev</a> •
-  <a href="https://www.linkedin.com/in/yoann-corgnet-26a039270/" target="_blank" rel="noopener noreferrer">LinkedIn</a> •
+  <a href="https://yoann-corgnet.dev">yoann-corgnet.dev</a> •
+  <a href="https://www.linkedin.com/in/yoann-corgnet-26a039270/">LinkedIn</a> •
   <a href="mailto:yoann.corgnet@laposte.net">yoann.corgnet@laposte.net</a>
 </p>
 
