@@ -79,10 +79,3 @@
 
 - **2024 — 2027** · **ESIEA** — Engineering degree, Software Engineering major
 - **2024 — 2025** · **UQAC** — BSc Computer Science (Cybersecurity · Big Data & AI)
-
----
-
-## # stats
-
-![Yoann's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yoann-CORGNET&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yoann-CORGNET&layout=compact&theme=tokyonight&hide_border=true)

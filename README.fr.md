@@ -79,10 +79,3 @@
 
 - **2024 — 2027** · **ESIEA** — Diplôme d'ingénieur, Majeure Software Engineering
 - **2024 — 2025** · **UQAC** — Double diplôme, Bac+3 Informatique (Cybersécurité · Big Data & IA)
-
----
-
-## # stats
-
-![Yoann's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yoann-CORGNET&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Yoann-CORGNET&layout=compact&theme=tokyonight&hide_border=true)
