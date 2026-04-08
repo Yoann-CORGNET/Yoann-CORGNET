@@ -1,13 +1,13 @@
 <p align="center">
-  <strong>English</strong> •
-  <a href="./README.fr.md">Français</a>
+  <a href="./README.md">English</a> •
+  <strong>Français</strong>
 </p>
 
 <!-- Profile README – Yoann CORGNET -->
 <h1 align="center">&gt; Yoann CORGNET</h1>
 <p align="center">
   Tech Lead @ <strong><a href="https://nerionsoft.com" target="_blank" rel="noopener noreferrer">NerionSoft</a></strong><br/>
-  <em>Software Engineering student · ESIEA</em>
+  <em>Étudiant ingénieur ESIEA · Software Engineering</em>
 </p>
 
 <p align="center">
@@ -54,31 +54,31 @@
 
 ## # projects
 
-### ▸ Hestia <small>Reservation</small> — [\[↗\]](https://booking.nerionsoft.com)
-> SaaS booking engine for independent hoteliers — a direct alternative to OTAs.
-- → **Architecture** — DDD + pluggable PMS adapters (Apaleo today, Mews / Cloudbeds tomorrow without touching the domain core)
-- → **Consistency & reliability** — Transactional outbox (no confirmation e-mail ever lost), idempotent webhooks (no double-booking on replay), explicit state machine for the reservation lifecycle
-- → **Analytics** — Real-time KPI dashboard (revenue, occupancy rate, ADR, RevPAR, conversion funnel) with optimized PostgreSQL aggregations and interactive visualizations
-- → **Delivery** — Next.js 16 on Vercel · PostgreSQL (Neon) · Prisma · better-auth · Resend · CI/CD with preview envs per PR
-- → Tech Lead — from design to production
+### ▸ Hestia <small>Réservation</small> — [\[↗\]](https://booking.nerionsoft.com)
+> Moteur de réservation SaaS pour hôteliers indépendants — alternative directe aux OTAs.
+- → **Architecture** — DDD + adaptateurs PMS modulaires (Apaleo aujourd'hui, Mews / Cloudbeds demain sans toucher au cœur métier)
+- → **Cohérence & fiabilité** — Outbox transactionnel (aucun e-mail de confirmation perdu), webhooks idempotents (pas de double-booking sur replay), machine à états explicite pour le cycle de vie d'une réservation
+- → **Analytics** — Dashboard KPI temps réel (revenus, taux d'occupation, ADR, RevPAR, funnel de conversion) avec agrégations PostgreSQL optimisées et visualisations interactives
+- → **Delivery** — Next.js 16 sur Vercel · PostgreSQL (Neon) · Prisma · better-auth · Resend · CI/CD avec preview envs par PR
+- → Tech Lead — de la conception à la mise en production
 
-### ▸ Undrive — <small>*Sept 2025 → Feb 2026*</small>
-> Mobile gamification app rewarding public-transport usage.
-- → CI/CD infra on **GCP** with **Terraform**, **Cloud Run** deploys, **GitHub Actions** workflows
-- → **Django** backend API + Python microservices, **PostgreSQL / PostGIS**
+### ▸ Undrive — <small>*Sept. 2025 → Mars. 2026*</small>
+> Application mobile de gamification qui récompense l'usage des transports en commun.
+- → Infra **CI/CD** sur **GCP** avec **Terraform**, déploiement **Cloud Run**, workflows **GitHub Actions**
+- → API backend **Django** + microservices **Python**, base **PostgreSQL / PostGIS**
 
 ### ▸ StockElec 🥈 — <small>*2023 → 2024*</small>
-> Web stock-management app for ESIEA's electronics lab. *(Silver medal — 2nd-year project)*
-- → **Quasar (Vue.js)** + **Tailwind** frontend with an interactive analytics dashboard
-- → **Java Spring** REST API · **MySQL** · fully containerized with **Docker**
-- → Built **agile**, with direct client requirements gathering
+> Application web de gestion de stock pour le laboratoire d'électronique de l'ESIEA. *(Médaille d'argent — projet de 2ᵉ année)*
+- → Frontend **Quasar (Vue.js)** + **Tailwind**, tableau analytique interactif
+- → Backend **Java Spring** · **MySQL** · le tout conteneurisé via **Docker**
+- → Méthode **agile** avec recueil du besoin client
 
 ---
 
 ## # education
 
-- **2024 — 2027** · **ESIEA** — Engineering degree, Software Engineering major
-- **2024 — 2025** · **UQAC** — BSc Computer Science (Cybersecurity · Big Data & AI)
+- **2024 — 2027** · **ESIEA** — Diplôme d'ingénieur, Majeure Software Engineering
+- **2024 — 2025** · **UQAC** — Double diplôme, Bac+3 Informatique (Cybersécurité · Big Data & IA)
 
 ---
 
