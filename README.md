@@ -59,8 +59,8 @@
 - → **Architecture** — DDD + pluggable PMS adapters (Apaleo today, Mews / Cloudbeds tomorrow without touching the domain core)
 - → **Consistency & reliability** — Transactional outbox (no confirmation e-mail ever lost), idempotent webhooks (no double-booking on replay), explicit state machine for the reservation lifecycle
 - → **Analytics** — Real-time KPI dashboard (revenue, occupancy rate, ADR, RevPAR, conversion funnel) with optimized PostgreSQL aggregations and interactive visualizations
-- → **Delivery** — Next.js 16 on Vercel · PostgreSQL (Neon) · Prisma · better-auth · Resend · CI/CD with preview envs per PR
-- → Tech Lead — from design to production
+- → **Delivery** — Next.js 16 on Vercel · PostgreSQL · Prisma · Resend · CI/CD with preview envs per PR
+- → **Tech Lead** — from design to production
 
 ### ▸ Undrive — <small>*Sept 2025 → Feb 2026*</small>
 > Mobile gamification app rewarding public-transport usage.
