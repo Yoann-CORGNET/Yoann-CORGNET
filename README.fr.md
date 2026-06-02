@@ -54,7 +54,7 @@
 
 ## # projects
 
-### ▸ Hestia <small>Réservation</small> — [\[↗\]](https://booking.nerionsoft.com)
+### ▸ Hestia <small>Réservation</small> — [\[↗\]](https://nerionsoft.com/moteur-de-reservation)
 > Moteur de réservation SaaS pour hôteliers indépendants — alternative directe aux OTAs.
 - → **Architecture** — DDD + adaptateurs PMS modulaires (Apaleo aujourd'hui, Mews / Cloudbeds demain sans toucher au cœur métier)
 - → **Cohérence & fiabilité** — Outbox transactionnel (aucun e-mail de confirmation perdu), webhooks idempotents (pas de double-booking sur replay), machine à états explicite pour le cycle de vie d'une réservation
