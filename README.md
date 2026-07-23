@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://yoann-corgnet.dev">yoann-corgnet.dev</a> •
   <a href="https://www.linkedin.com/in/yoann-corgnet-26a039270/">LinkedIn</a> •
-  <a href="mailto:yoann.corgnet@laposte.net">yoann.corgnet@laposte.net</a>
+  <a href="mailto:yoann.corgnet.04@gmail.com">yoann.corgnet.04@gmail.com</a>
 </p>
 
 --- 
