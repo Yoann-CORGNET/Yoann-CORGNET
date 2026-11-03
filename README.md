@@ -6,8 +6,7 @@
 <!-- Profile README - Yoann CORGNET -->
 <h1 align="center">&gt; Yoann CORGNET</h1>
 <p align="center">
-  Tech Lead @ <strong><a href="https://nerionsoft.com">NerionSoft</a></strong><br/>
-  <em>Software Engineering student · ESIEA</em>
+  <em>Software Engineering student · CentraleSupélec &amp; ESIEA</em>
 </p>
 
 <p align="center">
@@ -18,22 +17,24 @@
 
 --- 
 
-Tech Lead at [NerionSoft](https://nerionsoft.com) since September 2025, where I architect Hestia,
-our hotel booking engine. The real technical challenge lies in the PMS connectors (the hotel ERP):
-syncing reservations and rates in real time through Apaleo (certified) and Adyen for payments
-(3DS, virtual cards), without ever letting a reservation's state drift out of sync between the two.
+Hi, I'm Yoann 👋
 
-My path has been shaped by a taste for academic challenge: I'm finishing my engineering degree with
-a dual-degree program at CentraleSupélec. Before that, the dual degree at UQAC (2024-2025) took me
-beyond pure software, with an international experience and a look into adjacent fields (IA/data and cybersecurity).
+I'm a software engineering student finishing a dual degree between ESIEA and CentraleSupélec.
+I like building products, and the part I enjoy most comes before the code: understanding the problem
+well enough that the architecture follows from it.
 
-On the projects side, StockElec (2nd year) was my first contact with a real product: scoping the need
-with a client, and above all learning to hand a project off cleanly (docs matter). Undrive (4th year)
-went further: my first production deployment, on GCP, and a first dive into microservices architecture.
+On Hestia, a hotel booking engine, the difficulty came from the business side. A reservation lives in two
+systems, the booking engine and the hotel's PMS (its property management software), and its state must never
+drift between them. Everything else followed from that constraint: pluggable PMS adapters, idempotent webhooks,
+an explicit state machine.
+
+I judge a design by how it holds up in production, and I weigh what each extra layer of abstraction costs
+before adding it. I also care about what surrounds the code (CI, preview environments, tests, documentation),
+because that's what lets a product keep evolving once its original team has moved on.
 
 ## # projects
 
-### ▸ Hestia <small>Reservation</small> · [\[↗\]](https://nerionsoft.com/en/booking-engine)
+### ▸ Hestia <small>Reservation</small> · <small>*Sept 2025 → Aug 2026*</small> · [\[↗\]](https://nerionsoft.com/en/booking-engine)
 > SaaS booking engine for independent hoteliers, a direct alternative to OTAs.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -46,11 +47,11 @@ went further: my first production deployment, on GCP, and a first dive into micr
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-126ED3?style=for-the-badge&logo=sonarqubecloud&logoColor=white)
 
-- → DDD domain with pluggable PMS adapters: Apaleo today, Mews / Cloudbeds tomorrow without touching the core
+- → DDD domain with pluggable PMS adapters: Apaleo first, Mews / Cloudbeds addable without touching the core
 - → Transactional outbox (no confirmation e-mail ever lost), idempotent webhooks (no double-booking on replay), explicit reservation state machine
 - → Real-time KPI dashboard (revenue, occupancy rate, ADR, RevPAR, conversion funnel) on optimized PostgreSQL aggregations, with interactive visualizations
 - → Next.js 16 on Vercel · Neon · better-auth · Resend · CI/CD with preview envs per PR
-- → Tech Lead, from design to production
+- → Tech Lead at [NerionSoft](https://nerionsoft.com), from design to production
 
 ### ▸ Undrive · <small>*Sept 2025 → Feb 2026*</small>
 > Mobile gamification app rewarding public-transport usage.

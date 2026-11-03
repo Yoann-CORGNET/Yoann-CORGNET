@@ -6,8 +6,7 @@
 <!-- Profile README - Yoann CORGNET -->
 <h1 align="center">&gt; Yoann CORGNET</h1>
 <p align="center">
-  Tech Lead @ <strong><a href="https://nerionsoft.com">NerionSoft</a></strong><br/>
-  <em>Étudiant ingénieur ESIEA · Software Engineering</em>
+  <em>Étudiant ingénieur CentraleSupélec &amp; ESIEA · Software Engineering</em>
 </p>
 
 <p align="center">
@@ -18,22 +17,25 @@
 
 ---
 
-Tech Lead chez [NerionSoft](https://nerionsoft.com) depuis septembre 2025, où j'architecture Hestia,
-notre moteur de réservation hôtelier. Le vrai enjeu technique tient aux connecteurs PMS (l'ERP hôtelier) :
-synchroniser réservations et tarifs en temps réel via Apaleo (certifié) et Adyen pour le paiement
-(3DS, cartes virtuelles), sans jamais désynchroniser l'état d'une réservation entre les deux.
+Salut, moi c'est Yoann 👋
 
-Mon parcours s'est construit autour d'une volonté de challenge académique : je termine mon diplôme d'ingénieur
-par un double diplôme à CentraleSupélec. Avant ça, le double diplôme à l'UQAC (2024-2025) m'a fait sortir du software pur,
-avec une ouverture à l'international et une exploration de domaines adjacents (IA/data et cybersécurité).
+Étudiant en génie logiciel, je termine un double diplôme entre l'ESIEA et CentraleSupélec.
+J'aime construire des produits, et la partie qui m'intéresse le plus vient avant le code : comprendre
+le problème assez bien pour que l'architecture en découle.
 
-Côté projets, StockElec (2A) a été le premier contact avec un vrai produit : cadrer le besoin avec un client,
-et surtout apprendre à transmettre un projet proprement (la docs c'est important). Undrive (4A) est allé plus loin :
-première mise en prod, sur GCP, avec découverte de l'architecture en microservices au passage.
+Sur Hestia, un moteur de réservation hôtelier, la difficulté venait du métier. Une réservation vit dans deux
+systèmes, le moteur et le PMS de l'hôtel (son logiciel de gestion), et son état ne doit jamais diverger entre
+les deux. C'est de là que découle le reste : adaptateurs PMS modulaires, webhooks idempotents, machine à états
+explicite.
+
+Je juge une conception à sa tenue en production, et je pèse ce que coûte chaque couche d'abstraction avant
+de l'ajouter. Je tiens aussi à ce qui entoure le code (CI, environnements de preview, tests, documentation),
+parce que c'est ce qui permet à un produit de continuer à évoluer une fois que l'équipe d'origine est passée
+à autre chose.
 
 ## # projects
 
-### ▸ Hestia <small>Réservation</small> · [\[↗\]](https://nerionsoft.com/moteur-de-reservation)
+### ▸ Hestia <small>Réservation</small> · <small>*Sept. 2025 → Août 2026*</small> · [\[↗\]](https://nerionsoft.com/moteur-de-reservation)
 > Moteur de réservation SaaS pour hôteliers indépendants, alternative directe aux OTAs.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -46,11 +48,11 @@ première mise en prod, sur GCP, avec découverte de l'architecture en microserv
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-126ED3?style=for-the-badge&logo=sonarqubecloud&logoColor=white)
 
-- → Domaine DDD avec adaptateurs PMS modulaires : Apaleo aujourd'hui, Mews / Cloudbeds demain sans toucher au cœur métier
+- → Domaine DDD avec adaptateurs PMS modulaires : Apaleo d'abord, Mews / Cloudbeds ajoutables sans toucher au cœur métier
 - → Outbox transactionnel (aucun e-mail de confirmation perdu), webhooks idempotents (pas de double-booking sur replay), machine à états explicite du cycle de vie d'une réservation
 - → Dashboard KPI temps réel (revenus, taux d'occupation, ADR, RevPAR, funnel de conversion) sur agrégations PostgreSQL optimisées, avec visualisations interactives
 - → Next.js 16 sur Vercel · Neon · better-auth · Resend · CI/CD avec preview envs par PR
-- → Tech Lead, de la conception à la mise en production
+- → Tech Lead chez [NerionSoft](https://nerionsoft.com), de la conception à la mise en production
 
 ### ▸ Undrive · <small>*Sept. 2025 → Mars. 2026*</small>
 > Application mobile de gamification qui récompense l'usage des transports en commun.
